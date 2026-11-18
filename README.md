@@ -2,7 +2,8 @@
 
 High throughput screening of the EU OpenScreen library (~100.000 compounds) against 7 pathogens of reference (A. baumannii, C. albicans, E. coli, E. faecalis, K. pneumoniae, P. aeruginosa, S. aureus). Assays were obtained from the European Chemical Biology Database and correspond to single point inhibitions with cut-offs ranging from 50 to 70% and incubation concentrations between 41.7 to 50 uM. Models were trained by Ersilia using LazyQSAR v3.6, achieving a mean AUROC of 0.94 (range 0.83-0.98) upon 5-fold crossvalidation.
 
-This model was incorporated on 2026-08-06.Last packaged on 2026-10-06.
+This model was incorporated on 2026-08-06.
+Last packaged on 2026-10-06.
 
 ## Information
 ### Identifiers
@@ -43,6 +44,7 @@ Below are the **Output Columns** of the model:
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos3f8h](https://hub.docker.com/r/ersiliaos/eos3f8h)
 - **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3f8h.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos3f8h.zip)
+- **Apptainer**: [https://models-sif.s3.eu-north-1.amazonaws.com/eos3f8h_v2.sif](https://models-sif.s3.eu-north-1.amazonaws.com/eos3f8h_v2.sif)
 
 ### Resource Consumption
 - **Model Size (Mb):** `621`
